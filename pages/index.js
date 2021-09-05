@@ -26,11 +26,11 @@ function HomePage(props) {
     <Fragment>
       <Head>
         <title>React Meetups</title>
+        <script src="https://api.memberstack.io/static/memberstack.js?custom" data-memberstack-id="b3106fe80872e737499e46e10380237c"> </script> 
         <meta
           name='description'
           content='Browse a huge list of highly active React meetups!'
         />
-        <script src="https://api.memberstack.io/static/memberstack.js?custom" data-memberstack-id="b3106fe80872e737499e46e10380237c"> </script> 
       </Head>
       <MeetupList meetups={DUMMY_MEETUPS} />;
     </Fragment>
