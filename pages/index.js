@@ -25,7 +25,7 @@ function HomePage(props) {
   return (
     <Fragment>
       <Head>
-        <title>React Meetups</title>
+        <title>Reacter Meetups</title>
         <script src="https://api.memberstack.io/static/memberstack.js?custom" data-memberstack-id="b3106fe80872e737499e46e10380237c"> </script> 
         <meta
           name='description'
